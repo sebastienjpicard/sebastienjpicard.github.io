@@ -1,4 +1,4 @@
-boaseurl = "https://sebastienpicard.github.io"
+baseurl = "https://sebastienjpicard.github.io"
 title = "Sebastien Picard"
 theme = "hugo-coder"
 languagecode = "en"
