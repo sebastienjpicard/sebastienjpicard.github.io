@@ -1,0 +1,55 @@
+boaseurl = "https://sebastienpicard.github.io"
+title = "Sebastien Picard"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Sebastien Picard"
+  info = "Math @ UofT St. George"
+  description = "Sebastien Picard's personal website"
+  keywords = "blog,math"
+  avatarURL = "images/mypfp.jpg"
+  since = 2026
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/sebastienjpicard"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/sebastien-picard-692b973aa"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:sebastien.picard@mail.utoronto.ca"
+
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url = "posts/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
