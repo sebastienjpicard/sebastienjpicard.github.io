@@ -20,7 +20,7 @@ The definition essentially states that a sequence $\{a_n\}$ is convergent if the
 Since $\{a_n\}$ is monotonically increasing, $\forall n \ge N,\ a_n \ge a_N > L - \varepsilon$. Moreover since $L = \sup\{a_n\}$ is an upper bound of $\{a_n\}, \ \forall n \ge N,\ a_n \leq L < L + \varepsilon$.
 
 Combining the above, $\forall n \ge  N, \ L - \varepsilon < a_n < L + \varepsilon\ \implies \forall n \ge N, \ |a_n - L| < \varepsilon$.  Since $\varepsilon > 0$ was arbitrary, by definition of convergence, $\{a_n\}$ converges to $L$.
-<span style="float: right;">$\blacksquare$</span>
+<span style="display:inline-block; float:right;">$\blacksquare$</span>
 </div><br>
 
 The decreasing case is effectively the mirror image of the increasing case---making use of the greatest lower bound in place of the least upper bound---and is left as an exercise for the reader.
@@ -30,7 +30,7 @@ Note that in our proof, we make use of the fact that if for all $n \in \mathbb{N
 <div style="margin-left: 3em;"> <br>
 
 *Proof.* &emsp; For the base case $n=N$, it immediately follows that $a_n \ge a_N$. For the inductive step, suppose $a_k \ge a_N$ for some $k \ge N$. Since $a_{k+1} \ge a_k$, it follows that $a_{k+1} \ge a_k \ge a_N$, therefore $a_{k+1} \ge a_N$, as needed. Hence for all $n \ge N, \ a_n \ge a_N$.
-<span style="float: right;">$\blacksquare$</span>
+<span style="display:inline-block; float:right;">$\blacksquare$</span>
 </div> <br>
 
 <!-- Let's go through some worked examples. -->
