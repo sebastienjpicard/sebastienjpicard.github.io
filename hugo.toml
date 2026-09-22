@@ -53,6 +53,6 @@ style = "github-dark"
   url = "about/"
   
 [[menu.main]]
-  mane = "Blog"
+  name = "Blog"
   weight = 2
   url = "posts/"
