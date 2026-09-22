@@ -1,8 +1,8 @@
 ---
 title: "Monotone Convergence Theorem"
-date: 2026-08-06T15:44:45-04:00
+date: 2026-09-21T15:44:45-04:00
 draft: false
-latex: true
+katex: true
 ---
 
 Let $a:\mathbb{N} \to \mathbb{R}\ \{a_n\}$ be a sequence of real numbers. If $\{a_n\}$ is **MONOTONICALLY INCREASING**, that is for all $n \in \mathbb{N}, \ a_{n+1} \ge a_n$, and **BOUNDED ABOVE**, that is for all $n,\ a_n \le B$ for some $B \in \mathbb{R}$, then $\{a_n\}$ converges to a finite value as $n \to \infty$.  Likewise if $\{a_n\}$ is **MONOTONICALLY DECREASING**, that is for all $n \in \mathbb{N}, \ a_{n+1} \le a_n$, and **BOUNDED BELOW**, that is for all $n, \ a_n \ge b$ for some $b \in \mathbb{R}$, then $\{a_n\}$ converges to a finite value as $n \to \infty$.
