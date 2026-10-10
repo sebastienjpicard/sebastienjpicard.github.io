@@ -1,0 +1,54 @@
+baseurl = "https://sebastienjpicard.github.io/"
+title = "Sebastien's Webpage"
+theme = "hugo-haku"
+locale = "en"
+# defaultcontentlanguage = "en"
+
+[markup.highlight]
+style = 'catppuccin-frappe'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$'], ['\[', '\]']]
+inline = [['$', '$'], ['\(', '\)']]
+
+[params]
+  info = 'Hi, I’m Sebastien〜'
+  bio = "I'm a second-year mathematics student at the **University of Toronto**. I'm passionate about research in mathematics and mathematics in education. Please contact me if you wish to talk or collaborate. ***welcome to my webpage!***"
+  description = "Sebastien’s webpage on philosophy, technoskepticism, small-scale technology, poetry, and mathematics."
+  listTitle = "**What's new**:"
+  # random home page quote: list them in data/quotes.json (delete the file to disable)
+  avatar = "/images/mypfp.jpg"
+  tileClock = true  # show the current unix time as mahjong tiles
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 2
+  url = "contact/"
+
+[[menu.main]]
+  name = "GitHub"
+  weight = 3
+  url = "https://github.com/sebastienjpicard"
+
+[[menu.main]]
+  name = "LinkedIn"
+  weight = 4
+  url = "https://linkedin.com/in/sebastien-picard-692b973aa"
+

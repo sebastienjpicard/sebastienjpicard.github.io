@@ -1,0 +1,3 @@
+[submodule "themes/hugo-haku"]
+	path = themes/hugo-haku
+	url = https://github.com/sebastienjpicard/hugo-haku

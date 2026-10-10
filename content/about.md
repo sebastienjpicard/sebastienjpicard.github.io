@@ -1,0 +1,26 @@
+---
+title: "About"
+date: 2025-01-01
+author: "Sebastien Picard"
+nextprev: false
+---
+
+I am a second-year Mathematics student at the University of Toronto, St. George. My research interests include: 
+
+- Algebraic Number Theory
+- Category Theory
+- Combinatorics
+- Differential Geometry
+- Ergodic Theory
+- Harmonic Analysis
+- Low-Dimensional Topology
+- Random Matrix Theory
+- Representation Theory
+
+Among other areas.
+
+Prior to beginning my undergrad at the  University of Toronto, I competed in the FIRST Robotics Competition, reaching the regional finals with my team. I have also been involved in Model UN, theater and improv performance, and pure mathematics through the UofT Math Academy program.
+
+I am a lifelong learner with broad interests across languages, technology, and the arts. I am a native speaker of English and French, and am currently studying Russian and Mandarin Chinese. In my free time, I am a seasoned skier with 16 years of experience; I also play ultimate frisbee as a member of the UofT Intramurals team, cube, read, play chess, write poetry, and build upon my Linux system.
+
+**I am actively seeking undergraduate research opportunities in mathematics**. If you are a faculty member working in any of the above areas and are open to working with an undergraduate, I would welcome the chance to connect.
