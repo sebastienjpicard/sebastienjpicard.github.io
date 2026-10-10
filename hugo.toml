@@ -1,4 +1,4 @@
-baseurl = "https://sebastienjpicard.github.io/"
+baseurl = "https://sebastienpicard.com/"
 title = "Sebastien's Webpage"
 theme = "hugo-haku"
 locale = "en"
