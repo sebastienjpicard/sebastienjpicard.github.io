@@ -1,0 +1,106 @@
+/* TODO: variable-width hotloading */
+
+/* Palette: Catppuccin Frappé */
+:root {
+	--bg: #303446 ;
+	--text: #c6d0f5 ;
+	--accent: #ca9ee6 ;
+	--link: #8caaee ;
+	--link-visited: #ca9ee6 ;
+	--rule: #414559 ;
+}
+
+body {
+	font-family: sans-serif ;
+	text-align: justify ;
+	hyphens: auto ;
+	-webkit-hyphens: auto ;
+	-ms-hyphens: auto ;
+	background: var(--bg) ;
+	color: var(--text) ;
+}
+
+html {
+	background: var(--bg) ;
+}
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+nav ul {
+	list-style: none ;
+	padding: 0 ;
+	text-align: center ;
+}
+nav li {
+	display: inline ;
+	margin: 0 0.25em ;
+}
+img {
+	max-width: 100% ;
+}
+header h1 {
+	text-align: center ;
+	color: var(--accent) ;
+}
+footer {
+	text-align: center ;
+	clear: both ;
+}
+a {
+	color: var(--link) ;
+}
+a:visited {
+	color: var(--link-visited) ;
+}
+hr {
+	border-color: var(--rule) ;
+}
+
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+/*
+.button-row {
+	display: flex ;
+	flex-wrap: wrap ;
+	justify-content: center ;
+	gap: 4px ;
+}
+.button-row img {
+	image-rendering: pixelated ;
+}
+*/
+
+/* For the mahjong tile clock (tileClock) */
+.tile {
+	height: 40px ;
+	margin: 0 2px ;
+	background: url("/tiles/Front.svg") center / 100% 100% ;
+}

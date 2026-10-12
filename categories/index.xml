@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sebastien's Webpage</title><link>https://sebastienpicard.com/categories/</link><description>Recent content in Categories on Sebastien's Webpage</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://sebastienpicard.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact</title><link>https://sebastienpicard.com/contact/</link><pubDate>Sat, 10 Oct 2026 15:56:06 -0400</pubDate><guid>https://sebastienpicard.com/contact/</guid><description>&lt;p&gt;Feel free to contact me for any inquiries on who I am and what I do. I&amp;rsquo;m open to projects and collaborations of all kinds.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email &amp;mdash; sebastien DOT picard AT mail DOT utoronto DOT ca&lt;/li&gt;
+&lt;li&gt;Discord &amp;mdash; turquoisepsyche&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Monotone Convergence Theorem</title><link>https://sebastienpicard.com/articles/mct/</link><pubDate>Fri, 18 Sep 2026 15:44:45 -0400</pubDate><guid>https://sebastienpicard.com/articles/mct/</guid><description>&lt;p&gt;Let $a:\mathbb{N} \to \mathbb{R}\ \{a_n\}$ be a sequence of real numbers. If $\{a_n\}$ is &lt;strong&gt;MONOTONICALLY INCREASING&lt;/strong&gt;, that is for all $n \in \mathbb{N}, \ a_{n+1} \ge a_n$, and &lt;strong&gt;BOUNDED ABOVE&lt;/strong&gt;, that is for all $n,\ a_n \le B$ for some $B \in \mathbb{R}$, then $\{a_n\}$ converges to a finite value as $n \to \infty$. Likewise if $\{a_n\}$ is &lt;strong&gt;MONOTONICALLY DECREASING&lt;/strong&gt;, that is for all $n \in \mathbb{N}, \ a_{n+1} \le a_n$, and &lt;strong&gt;BOUNDED BELOW&lt;/strong&gt;, that is for all $n, \ a_n \ge b$ for some $b \in \mathbb{R}$, then $\{a_n\}$ converges to a finite value as $n \to \infty$.&lt;/p&gt;
+&lt;p&gt;We prove each case separately. For both cases, we want to show that, by &lt;strong&gt;DEFINITION OF CONVERGENCE&lt;/strong&gt;,&lt;/p&gt;
+$$\exists L \in \mathbb{R} \text{ s.t. } \forall \varepsilon &gt; 0, \ \exists N \in \mathbb{N} \text{ s.t. } \forall n \geq N, \ |a_n - L| &lt; \varepsilon.$$&lt;p&gt;The definition essentially states that a sequence $\{a_n\}$ is convergent if there exists a point $L$ such that beyond some index $N$, every term of the sequence lies within an arbitrary distance $\varepsilon$ of $L$ and never escapes that bound.&lt;/p&gt;
+&lt;div style="margin-left: 3em;"&gt;&lt;br&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;   Since $\{a_n\}$ is nonempty and bounded above, by the &lt;strong&gt;LEAST-UPPER-BOUND PROPERTY&lt;/strong&gt; of $\mathbb{R}$, there exists a least upper bound $L$ of $\{a_n\},\ L = \sup \{a_n\}$. Let $\varepsilon &gt; 0$. Since $L$ is the least upper bound of $\{a_n\},\ L - \varepsilon$ is not an upper bound, hence $\exists N \in \mathbb{N} \text{ s.t. } a_N &gt; L - \varepsilon$.&lt;/p&gt;
+&lt;p&gt;Since $\{a_n\}$ is monotonically increasing, $\forall n \ge N,\ a_n \ge a_N &gt; L - \varepsilon$. Moreover since $L = \sup\{a_n\}$ is an upper bound of $\{a_n\}, \ \forall n \ge N,\ a_n \leq L &lt; L + \varepsilon$.&lt;/p&gt;
+&lt;p&gt;Combining the above, $\forall n \ge N, \ L - \varepsilon &lt; a_n &lt; L + \varepsilon\ \implies \forall n \ge N, \ |a_n - L| &lt; \varepsilon$. Since $\varepsilon &gt; 0$ was arbitrary, by definition of convergence, $\{a_n\}$ converges to $L$.
+&lt;span style="float: right;"&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;br&gt;
+&lt;p&gt;The decreasing case is effectively the mirror image of the increasing case&amp;mdash;making use of the greatest lower bound in place of the least upper bound&amp;mdash;and is left as an exercise for the reader.&lt;/p&gt;
+&lt;p&gt;Note that in our proof, we make use of the fact that if for all $n \in \mathbb{N},\ a_{n+1} \ge a_n$, then for all $n \ge N,\ a_n \ge a_N$. While trivial, proving it makes for a good exercise. Proceed by induction on $n$.&lt;/p&gt;
+&lt;div style="margin-left: 3em;"&gt; &lt;br&gt;
+&lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;   For the base case $n=N$, it immediately follows that $a_n \ge a_N$. For the inductive step, suppose $a_k \ge a_N$ for some $k \ge N$. Since $a_{k+1} \ge a_k$, it follows that $a_{k+1} \ge a_k \ge a_N$, therefore $a_{k+1} \ge a_N$, as needed. Hence for all $n \ge N, \ a_n \ge a_N$.
+&lt;span style="float: right;"&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt; &lt;br&gt;
+&lt;!-- Let's go through some worked examples. --&gt;</description></item><item><title>About</title><link>https://sebastienpicard.com/about/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://sebastienpicard.com/about/</guid><description>&lt;p&gt;I am a second-year Mathematics student at the University of Toronto, St. George. My research interests include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Algebraic Number Theory&lt;/li&gt;
+&lt;li&gt;Category Theory&lt;/li&gt;
+&lt;li&gt;Combinatorics&lt;/li&gt;
+&lt;li&gt;Differential Geometry&lt;/li&gt;
+&lt;li&gt;Ergodic Theory&lt;/li&gt;
+&lt;li&gt;Harmonic Analysis&lt;/li&gt;
+&lt;li&gt;Low-Dimensional Topology&lt;/li&gt;
+&lt;li&gt;Random Matrix Theory&lt;/li&gt;
+&lt;li&gt;Representation Theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Among other areas.&lt;/p&gt;
+&lt;p&gt;Prior to beginning my undergrad at the University of Toronto, I competed in the FIRST Robotics Competition, reaching the regional finals with my team. I have also been involved in Model UN, theater and improv performance, and pure mathematics through the UofT Math Academy program.&lt;/p&gt;
+&lt;p&gt;I am a lifelong learner with broad interests across languages, technology, and the arts. I am a native speaker of English and French, and am currently studying Russian and Mandarin Chinese. In my free time, I am a seasoned skier with 16 years of experience; I also play ultimate frisbee as a member of the UofT Intramurals team, cube, read, play chess, write poetry, and build upon my Linux system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I am actively seeking undergraduate research opportunities in mathematics&lt;/strong&gt;. If you are a faculty member working in any of the above areas and are open to working with an undergraduate, I would welcome the chance to connect.&lt;/p&gt;</description></item></channel></rss>
