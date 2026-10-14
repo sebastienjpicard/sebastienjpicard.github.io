@@ -3,7 +3,7 @@
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;   Suppose for contradiction that there exists finitely many primes $ p_1, \dots, p_n $. Let $ P = p_1 p_2 \cdots p_n + 1$. Since $ P &gt; 1$, there exists a prime $q$ such that $ q \mid P $. However since dividing $ P $ by any $ p_i $ leaves remainder $1$, it follows that $q$ is a prime not in $p_1, \dots, p_n $, contradicting the assumption that $p_1, \dots, p_n$ contains all primes. Hence the set of primes is infinite.
 &lt;span style="float: right;"&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;br&gt;
-&lt;p&gt;Note that $ p_i $ is a factor of $ p_1 p_2 \cdots p_n $, which implies $ P = p_1 p_2 \cdots p_n + 1$ is one more than a multiple of $ p_i $. Moreover, whether $P$ is prime is irrelevant within the context of our proof.&lt;/p&gt;
+&lt;p&gt;Note that $ p_i \mid p_1 p_2 \cdots p_n $, which implies $ P = p_1 p_2 \cdots p_n + 1$ is one more than a multiple of $ p_i $. Moreover, whether $P$ is prime is irrelevant within the context of our proof.&lt;/p&gt;
 &lt;p&gt;Our proof need not be by contradiction. Its original formulation by Euclid is direct.&lt;/p&gt;</description></item><item><title>Contact</title><link>https://sebastienpicard.com/contact/</link><pubDate>Sat, 10 Oct 2026 15:56:06 -0400</pubDate><guid>https://sebastienpicard.com/contact/</guid><description>&lt;p&gt;Feel free to contact me for any inquiries on who I am and what I do. I&amp;rsquo;m open to projects and collaborations of all kinds.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Email &amp;mdash; sebastien DOT picard AT mail DOT utoronto DOT ca&lt;/li&gt;
