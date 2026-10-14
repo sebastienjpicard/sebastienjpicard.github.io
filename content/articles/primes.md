@@ -13,6 +13,6 @@ By way of contradiction, we prove that there exists infinitely many primes in $ 
 <span style="float: right;">$\blacksquare$</span>
 </div><br>
 
-Note that $ p_i $ is a factor of $ p_1 p_2 \cdots p_n $, which implies $ P = p_1 p_2 \cdots p_n + 1$ is one more than a multiple of $ p_i $. Moreover, whether $P$ is prime is irrelevant within the context of our proof.
+Note that $ p_i \mid p_1 p_2 \cdots p_n $, which implies $ P = p_1 p_2 \cdots p_n + 1$ is one more than a multiple of $ p_i $. Moreover, whether $P$ is prime is irrelevant within the context of our proof.
 
 Our proof need not be by contradiction. Its original formulation by Euclid is direct.
