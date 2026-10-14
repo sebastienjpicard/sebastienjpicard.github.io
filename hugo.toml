@@ -19,7 +19,7 @@ inline = [['$', '$'], ['\(', '\)']]
 
 [params]
   info = 'Hi, I’m Sebastien〜'
-  bio = "I'm a second-year mathematics student at the **University of Toronto**. I'm passionate about research in mathematics and mathematics in education. Please contact me if you wish to talk or collaborate. ***welcome to my webpage!***"
+  bio = "I'm a second-year mathematics student at the **University of Toronto**. I'm passionate about research in mathematics and mathematics in education. Please contact me if you wish to talk or collaborate. ***Welcome to my webpage!***"
   description = "Sebastien’s webpage on mathematics and education."
   listTitle = "**What's new**:"
   # random home page quote: list them in data/quotes.json (delete the file to disable)
