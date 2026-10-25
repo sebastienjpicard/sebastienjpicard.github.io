@@ -1,5 +1,5 @@
 +++
-date = '2026-10-10T15:56:06-04:00'
+date = '2025-10-10T15:56:06-04:00'
 draft = false
 title = 'Contact'
 nextprev = false
