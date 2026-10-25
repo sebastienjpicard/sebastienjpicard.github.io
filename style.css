@@ -11,7 +11,7 @@
 }
 
 body {
-	font-family: sans-serif ;
+	font-family: Arial, sans-serif;
 	text-align: justify ;
 	hyphens: auto ;
 	-webkit-hyphens: auto ;
@@ -57,7 +57,7 @@ hr {
 	border-color: var(--rule) ;
 }
 
-/* Keep article titles aligned after the dates */
+/* Keep article titles  after the dates */
 li time {
 	display: inline-block ;
 	min-width: 5.7em ;
