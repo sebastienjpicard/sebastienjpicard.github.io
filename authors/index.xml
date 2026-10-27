@@ -4,7 +4,7 @@
 $$ n^2 = (2k + 1)^2 = 2(2k^2 + 2k) + 1.$$&lt;p&gt; Since $n^2$ is of the form $2m + 1,\ m \in \mathbb{Z}$, it follows $n^2$ is odd. Since the contrapositive holds, so does our original claim. Hence if $n^2$ is even, then $n$ is even.
 &lt;span style="float: right;"&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;br&gt;
-&lt;p&gt;Notice that the converse claim need not be proven by contraposition, and can be proven directly with some algebraic manipulation. As an exercise, attempt to prove the claim directly and observe why it is impossible to do so.&lt;/p&gt;
+&lt;p&gt;Notice that the converse claim need not be proven by contraposition, and can be proven directly with some algebraic manipulation. As an exercise, attempt to prove the original claim directly and observe why this approach is not straightforward.&lt;/p&gt;
 &lt;p&gt;Prove that if $c &gt; \frac{49}{8}$ then $y = 2x^2 + 7x + c$ has no real roots. Proceed by contraposition.&lt;/p&gt;
 &lt;div style="margin-left: 3em;"&gt;&lt;br&gt;
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;   We show that if $y = 2x^2 + 7x + c$ has real roots, then $c \le \frac{49}{8}$. A quadratic polynomial $ ax^2 + bx + c = 0 $ has real roots if and only if $ b^2 - 4ac \ge 0 $. Let $a = 2$ and $b = 7 $. We obtain $7^2 - 4(2c) = 49 - 8c \ge 0$, thus $ c \le \frac{49}{8} $. Since the contrapositive holds, so does our original claim. Hence if $c &gt; \frac{49}{8}$, then $y = 2x^2 + 7x + c$ has no real roots.
