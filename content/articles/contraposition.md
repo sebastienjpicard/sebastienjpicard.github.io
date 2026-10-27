@@ -13,7 +13,7 @@ Recall that the **CONTRAPOSITIVE** of an implication is as follows, $P \Rightarr
 <span style="float: right;">$\blacksquare$</span>
 </div><br>
 
-Notice that the converse claim need not be proven by contraposition, and can be proven directly with some algebraic manipulation. As an exercise, attempt to prove the claim directly and observe why it is impossible to do so.
+Notice that the converse claim need not be proven by contraposition, and can be proven directly with some algebraic manipulation. As an exercise, attempt to prove the original claim directly and observe why this approach is not straightforward.
 
 Prove that if $c > \frac{49}{8}$ then $y = 2x^2 + 7x + c$ has no real roots. Proceed by contraposition.
 <div style="margin-left: 3em;"><br>
