@@ -21,7 +21,7 @@ $$\exists L \in \mathbb{R} \text{ s.t. } \forall \varepsilon &gt; 0, \ \exists N
 &lt;div style="margin-left: 3em;"&gt;&lt;br&gt;
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;   Since $\{a_n\}$ is nonempty and bounded above, by the &lt;strong&gt;LEAST-UPPER-BOUND PROPERTY&lt;/strong&gt; of $\mathbb{R}$, there exists a least upper bound $L$ of $\{a_n\},\ L = \sup \{a_n\}$. Let $\varepsilon &gt; 0$. Since $L$ is the least upper bound of $\{a_n\},\ L - \varepsilon$ is not an upper bound, hence $\exists N \in \mathbb{N} \text{ s.t. } a_N &gt; L - \varepsilon$.&lt;/p&gt;
 &lt;p&gt;Since $\{a_n\}$ is monotonically increasing, $\forall n \ge N,\ a_n \ge a_N &gt; L - \varepsilon$. Moreover since $L = \sup\{a_n\}$ is an upper bound of $\{a_n\}, \ \forall n \ge N,\ a_n \leq L &lt; L + \varepsilon$.&lt;/p&gt;
-&lt;p&gt;Combining the above, $\forall n \ge N, \ L - \varepsilon &lt; a_n &lt; L + \varepsilon\ \implies \forall n \ge N, \ |a_n - L| &lt; \varepsilon$. Since $\varepsilon &gt; 0$ was arbitrary, by definition of convergence, $\{a_n\}$ converges to $L$.
+&lt;p&gt;Combining the above, $\forall n \ge N, \ L - \varepsilon &lt; a_n &lt; L + \varepsilon\ \text{ i.e. } \forall n \ge N, \ |a_n - L| &lt; \varepsilon$. Since $\varepsilon &gt; 0$ was arbitrary, by definition of convergence, $\{a_n\}$ converges to $L$.
 &lt;span style="float: right;"&gt;$\blacksquare$&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;br&gt;
 &lt;p&gt;The decreasing case is effectively the mirror image of the increasing case&amp;mdash;making use of the greatest lower bound in place of the least upper bound&amp;mdash;and is left as an exercise for the reader.&lt;/p&gt;
