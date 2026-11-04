@@ -19,7 +19,7 @@ The definition essentially states that a sequence $\{a_n\}$ is convergent if the
 
 Since $\{a_n\}$ is monotonically increasing, $\forall n \ge N,\ a_n \ge a_N > L - \varepsilon$. Moreover since $L = \sup\{a_n\}$ is an upper bound of $\{a_n\}, \ \forall n \ge N,\ a_n \leq L < L + \varepsilon$.
 
-Combining the above, $\forall n \ge  N, \ L - \varepsilon < a_n < L + \varepsilon\ \implies \forall n \ge N, \ |a_n - L| < \varepsilon$.  Since $\varepsilon > 0$ was arbitrary, by definition of convergence, $\{a_n\}$ converges to $L$.
+Combining the above, $\forall n \ge  N, \ L - \varepsilon < a_n < L + \varepsilon\ \text{ i.e. } \forall n \ge N, \ |a_n - L| < \varepsilon$.  Since $\varepsilon > 0$ was arbitrary, by definition of convergence, $\{a_n\}$ converges to $L$.
 <span style="float: right;">$\blacksquare$</span>
 </div><br>
 
